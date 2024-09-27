@@ -1,7 +1,7 @@
 void longestIncreasingSubsequence(int arr[], int n)
 {
     vector<int> dp(n,1);
-    map<int,int> hash;
+    vector<int> hash(n);
     for(int i=0;i<n;i++)
     {
         hash[i]=i;
